@@ -1,0 +1,126 @@
+
+/*Geral*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+p,li{
+    color: #444;
+    font-size: 14px;
+}
+
+bibi{
+    --corFundo:#F2F2F2;
+    --corPrincipal:#0820A6;
+    --corSecundaria:#14268C;
+    --corTerciaria:#0A25BF;
+    --corLetras:#0D0D0D;
+    --fontPrincipal:'Nunito', sans-serif;;
+    --fontSecundaria:'Inter', sans-serif;;
+}
+
+
+/*Barra de navegação*/
+header, .navbar{
+    background-color: #14268C;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 75px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: #fff;
+}
+
+#navbar-links a{
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+/*HomeCurso*/
+
+
+/*Slider*/
+.container-fluid{
+    padding: 0;
+}
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 80vh;
+    background-color: #0A25BF;
+}
+
+#mainSlider .carousel-inner{
+    margin-top: 100px;
+}
+#mainSlider .carousel-item{
+    padding-top: 30px;
+}
+#mainSlider .carousel-caption{
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2{
+    font-size: 50px;
+    margin-bottom: 30px;   
+}
+
+#mainSlider .carousel-caption p{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #fff;
+}
+
+.carousel-indicators .active{
+    background-color: #65daf9;
+}
+
+#box-area .box-cont{
+    padding-left: 25px;
+    background-color: #fff;
+}
+#box-area .box-cont p{
+    font-size: 16px;
+    color: #0D0D0D;
+    text-align: justify;
+    padding-right: 25px;
+}
+#pattern-img h4{
+    margin-bottom: 20px;
+    margin-top: 8%;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0D0D0D;
+}
+#pattern-img{
+    border-radius:  0 8px 8px 0;
+}
+.company-img{
+    height: 500px;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 8px 0 0 8px ;
+}
+#img1{
+    background-image: url('../imgs/profile1.jpg');
+    background-position: center;
+}
+#img2{
+    background-image: url('../imgs/profile2.jpg');
+}
+#img3{
+    background-image: url('../imgs/profile3.jpg');
+    background-position: center;
+}
