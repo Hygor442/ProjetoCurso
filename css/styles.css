@@ -12,6 +12,9 @@ body{
     margin: 0;
     padding-top: 25px;
 }
+ul{
+    list-style: none;
+}
 /*Barra de navegação*/
 header, .navbar{
     background-color: #14268C;
@@ -50,7 +53,41 @@ header, .navbar{
 #home-area .cont-img, #home-area .cont-txt{
     margin-top: 15%;
 }
-
+#home-area .cont-txt .card{
+    width: 25rem;
+    list-style: none;
+}
+#home-area .cont-txt .card .card-title{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+#home-area .cont-txt .card .card-subtitle{
+    background-color: #f8ffff;
+    padding: 1rem 0;   
+    border-radius: 8px;
+}
+#home-area .cont-txt .card .card-subtitle p{
+    color: #0D0D0D;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+#home-area .card ul{
+    padding: 0;
+    margin: 0;
+}
+#home-area .card ul li{
+    color: #0D0D0D;
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+#home-area .card ul i{
+    padding-right: 10px;
+    color: green;
+}
 /*Slider*/
 .container-fluid{
     padding: 0;
@@ -96,14 +133,16 @@ header, .navbar{
 }
 #img1{
     background-image: url('../imgs/profile1.jpg');
-    background-position: center;
+    background-position: center center;
 }
 #img2{
-    background-image: url('../imgs/profile2.jpg');
+    background-image: url('../imgs/profile3.jpg');
+    background-position: center center;
+
 }
 #img3{
     background-image: url('../imgs/profile3.jpg');
-    background-position: center;
+    background-position: center center;
 }
 /*equipe*/
 #team-area{
@@ -176,4 +215,78 @@ header, .navbar{
 }
 #copy-area .container a:hover{
     color: #0A25BF;
+}
+
+/*responsive*/
+/*tablet*/
+@media (max-width: 768px){
+    
+
+}
+/*celular*/
+@media (max-width: 600px){
+    /*Home*/
+    #home-area .cont-img, #home-area .cont-txt{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #home-area .cont-img{
+        width: 300px;
+        height: 300px;
+        margin: 5% auto;
+        
+    }
+    /*Slider*/
+    #mainSlider{
+        height: 100vh;
+    }
+    #mainSlider .carousel-item, #mainSlider .carousel-inner{
+        height: 100vh;
+    }
+    #box-area .box-cont{
+        width: 95vw;
+        margin: 0 auto;
+    }
+    #box-area .company-img{
+        background-color: gray;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        border-radius: 50%;
+        z-index: 2;
+    }
+    #pattern-img{
+        z-index: 1;
+        height: 325px;
+        border-radius: 8px;
+    }
+    #box-area .box-cont{
+        margin-top: 1rem;
+    }
+    #box-area .box-cont p{
+        font-size: 15px;
+    }
+    #box-area .box-cont h4{
+        text-align: center;
+    }
+    .carousel-indicators{
+        bottom: -25px;
+    }
+    /*Time*/
+    #team-area .col-md-3{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    /*Contato*/
+    .contact-box{
+        border:none;
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+     #img-box{
+        display: none;
+    }
 }
