@@ -225,6 +225,10 @@ header, .navbar{
 }
 /*celular*/
 @media (max-width: 600px){
+    /*geral*/
+    .row{
+        width: 100vw;
+    }
     /*Home*/
     #home-area .cont-img, #home-area .cont-txt{
         margin: 0;
@@ -259,7 +263,7 @@ header, .navbar{
     }
     #pattern-img{
         z-index: 1;
-        height: 325px;
+        height: auto;
         border-radius: 8px;
     }
     #box-area .box-cont{
@@ -272,7 +276,7 @@ header, .navbar{
         text-align: center;
     }
     .carousel-indicators{
-        bottom: -25px;
+        bottom: -75px;
     }
     /*Time*/
     #team-area .col-md-3{
