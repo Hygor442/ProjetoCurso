@@ -220,8 +220,71 @@ header, .navbar{
 /*responsive*/
 /*tablet*/
 @media (max-width: 768px){
-    
+    /*Home*/
+    #home-area .cont-img, #home-area .cont-txt{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #home-area .cont-img{
+        width: 250px;
+        height: 250px;
+        margin: 5% auto;
+        padding-top: 3rem;
+        
+    }
 
+    /*Slider*/
+    #mainSlider{
+        height: 100vh;
+    }
+    #mainSlider .carousel-item, #mainSlider .carousel-inner{
+        height: 100vh;
+    }
+    #box-area .box-cont{
+        width: 95vw;
+        margin: 0 auto;
+    }
+    #box-area .company-img{
+        background-color: gray;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        border-radius: 50%;
+        z-index: 2;
+    }
+    #pattern-img{
+        z-index: 1;
+        height: auto;
+        border-radius: 8px;
+    }
+    #box-area .box-cont{
+        margin-top: 1rem;
+    }
+    #box-area .box-cont p{
+        font-size: 15px;
+    }
+    #box-area .box-cont h4{
+        text-align: center;
+    }
+    .carousel-indicators{
+        bottom: -75px;
+    }
+    /*time*/
+    #team-area .col-md-3{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    /*contato*/
+    .contact-box{
+        border:none;
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+     #img-box{
+        display: none;
+    }
 }
 /*celular*/
 @media (max-width: 600px){
