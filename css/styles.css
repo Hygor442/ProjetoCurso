@@ -61,6 +61,7 @@ header, .navbar{
 #home-area .cont-txt .card{
     width: 25rem;
     list-style: none;
+    text-align: center;
 }
 #home-area .cont-txt .card .card-title{
     font-weight: bolder;
@@ -151,7 +152,6 @@ header, .navbar{
 }
 /*equipe*/
 #team-area{
-    margin: 25px 0 0 0;
     padding: 25px 0;
     background-color: var(--bg-color1);
 }
@@ -159,11 +159,11 @@ header, .navbar{
     margin: 25px 0;
     padding: 0;
 }
-.card-body{
+#team-area .card-body{
     text-align: center;
 }
-.card{
-    margin-bottom: 10px;
+#team-area .card{
+    margin-bottom: 25px;
 }
 /*contato*/
 #contact-area{
@@ -314,7 +314,7 @@ header, .navbar{
         height: 100vh;
     }
     #mainSlider .carousel-item, #mainSlider .carousel-inner{
-        height: 100vh;
+        height: 95vh;
     }
     #box-area .box-cont{
         width: 95vw;
@@ -343,13 +343,22 @@ header, .navbar{
         text-align: center;
     }
     .carousel-indicators{
-        bottom: -75px;
+        bottom: -25px;
     }
     /*Time*/
+    #team-area .main-title{
+        margin:75px 0 25px 0;
+
+    }
     #team-area .col-md-3{
         width: 50%;
         margin-bottom: 30px;
     }
+    #team-area .card{
+        margin: 0;
+        height: 410px;
+    }
+
 
     /*Contato*/
     .contact-box{
