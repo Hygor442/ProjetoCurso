@@ -1,10 +1,15 @@
-
 /*Geral*/
+:root{
+    --bg-nav:#0006EB;
+    --bg-color1:#0006B8;
+    --bg-color2:#474DEE;
+    --txt-color:#DCE7E8;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
 .main-title{
-    color: #0D0D0D;
+    color: var(--txt-color);
     font-size: 40px;
     font-weight: bold;
     text-align: center;
@@ -17,7 +22,7 @@ ul{
 }
 /*Barra de navegação*/
 header, .navbar{
-    background-color: #14268C;
+    background-color: var(--bg-nav);
 }
 
 #nav-container{
@@ -45,7 +50,7 @@ header, .navbar{
 
 /*HomeCurso*/
 #home-area{
-    background-color: #0820A6;
+    background-color: var(--bg-color1);
 }
 #home-area .container{
     height: 100vh;
@@ -94,10 +99,10 @@ header, .navbar{
 }
 #mainSlider .carousel-inner, #mainSlider .carousel-item{
     height: 80vh;
-    background-color: #0A25BF;
+    background-color: var(--bg-color2);
 }
 #mainSlider .main-corp{
-    background-color: #0A25BF;
+    background-color: var(--bg-color2);
 }
 #mainSlider .carousel-item{
     padding-top: 30px;
@@ -146,13 +151,13 @@ header, .navbar{
 }
 /*equipe*/
 #team-area{
-    margin: 25px 0;
+    margin: 25px 0 0 0;
     padding: 25px 0;
+    background-color: var(--bg-color1);
 }
 #team-area .main-title{
     margin: 25px 0;
     padding: 0;
-    color:#0D0D0D;
 }
 .card-body{
     text-align: center;
@@ -163,12 +168,11 @@ header, .navbar{
 /*contato*/
 #contact-area{
     text-align: center;
-    background-color: #0A25BF;
+    background-color: var(--bg-color2);
 }
 #contact-area .main-title{
     margin: 25px 0;
     padding: 25px 0;
-    color:#0D0D0D;
 }
 
 .contact-box{
@@ -240,7 +244,7 @@ header, .navbar{
         height: 100vh;
     }
     #mainSlider .carousel-item, #mainSlider .carousel-inner{
-        height: 100vh;
+        height: 95vh;
     }
     #box-area .box-cont{
         width: 95vw;
@@ -269,7 +273,7 @@ header, .navbar{
         text-align: center;
     }
     .carousel-indicators{
-        bottom: -75px;
+        bottom: -30px;
     }
     /*time*/
     #team-area .col-md-3{
